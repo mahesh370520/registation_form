@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="regitration.css" />
+  </head>
+  <body>
+    <div id="b">
+      <div id="logo">
+        <img src="cap.png" height="50px" width="50px" />
+      </div>
+
+      <div id="title">
+        <h2>SMART CAMPUS</h2>
+        <p class="subtitle">College Management System</p>
+      </div>
+
+      <hr />
+      <form>
+        <div class="mahi">
+          <label for="fullname">Full Name * </label
+          ><input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Enter your Full name"
+            required
+          />
+        </div>
+
+        <div class="mahi">
+          <label>Email Adress *</label
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@college.edu"
+            required
+          />
+        </div>
+
+        <div class="mahi">
+          <label>Username *</label
+          ><input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Choose a username"
+            required
+          />
+        </div>
+
+        <div class="mahi">
+          <label>Account-Type</label>
+          <select name="Account-Type">
+            <option value="">Select account-Type</option>
+            <option value="student">Student</option>
+            <option value="HOD">HOD</option>
+            <option value="faculty">Faculty</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Password *</label>
+          <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="field">
+          <label>Confirm password *</label>
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+          />
+        </div>
+
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="login.html">Sign in</a></p>
+      </form>
+    </div>
+  </body>
+</html>

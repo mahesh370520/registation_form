@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #d3ebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+#b {
+  background-color: aliceblue;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 25px #04040315;
+}
+#logo,
+#title {
+  text-align: center;
+}
+hr {
+  margin: 20px 0;
+}
+.mahi {
+  margin-bottom: 16px;
+}
+.mahi input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 7px;
+  border: 1px solid #cbd5e1;
+}
+.mahi label,
+.field label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Text, email, password and dropdown */
+.mahi input,
+.mahi select,
+.field input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background-color: white;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 9px;
+  background-color: rgb(72, 72, 229);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .loki {
+    flex-direction: column;
+  }
+}
+button:hover {
+  background-color: rgb(67, 61, 179);
+}
+p {
+  text-align: center;
+  color: #636a74;
+}
+h2 {
+  text-align: center;
+}
+.field {
+  margin-bottom: 16px;
+}
